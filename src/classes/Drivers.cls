@@ -45,6 +45,7 @@ public class Drivers extends fflib_SObjectDomain
 	{
 		public fflib_SObjectDomain construct(List<SObject> sObjectList)
 		{
+			system.debug('hi');
 			return new Drivers(sObjectList);
 		}
 	}	
